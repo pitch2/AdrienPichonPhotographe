@@ -177,31 +177,3 @@ body {
 
   
 
-
-/* Pour les écrans larges (deskop, laptop) */
-@media only screen and (min-width: 992px) {
-  .carré_1, .carré_2, .carré_3, .carré_4, .carré_5 {
-    width: 20%;
-    float: left;
-    margin-right: 2%;
-    margin-bottom: 2%;
-  }
-}
-/* Pour les écrans moyens (tablets) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .carré_1, .carré_2, .carré_3, .carré_4, .carré_5 {
-    width: 40%;
-    float: left;
-    margin-right: 2%;
-    margin-bottom: 2%;
-  }
-}
-/* Pour les écrans petits (téléphones) */
-@media only screen and (max-width: 767px) {
-  .carré_1, .carré_2, .carré_3, .carré_4, .carré_5 {
-    width: 100%;
-    float: none;
-    margin-right: 0;
-    margin-bottom: 2%;
-  }
-}
